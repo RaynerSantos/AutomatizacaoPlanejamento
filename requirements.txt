@@ -1,5 +1,5 @@
 streamlit
 holidays
-win32com
+win32com.client
 openpyxl
 xlsxwriter
