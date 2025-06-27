@@ -1,7 +1,6 @@
 streamlit
 holidays
 win32com
-pywintypes
 pythoncom
 openpyxl
 xlsxwriter
