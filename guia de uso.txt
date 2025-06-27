@@ -1,0 +1,18 @@
+Primeiramente, copie essa pasta "Automatização planejamento com interface" em seu computador, e abra essa pasta no Visual Studio Code.
+
+Para rodar este programa é um pouco diferente. Não iremos usar o botão de rodar que fica no canto superior direito.
+
+Primeiramente temos que abrir o terminal. Se ele não estiver aberto, você pode clicar em ... -> Terminal -> New terminal
+ou simplesmente usar o atalho Ctrl + Shift + '
+
+Será necessário instalar algumas bibliotecas a mais. Para isso, digite os seguintes comandos no terminal:
+pip install streamlit
+pip install pythoncom
+
+Depois de instalar as bibliotecas, para rodar o programa, basta digitar o seguinte comando:
+
+streamlit run .\home.py
+
+Depois de enviar esse comando, uma janela do navegador irá abrir, com a interface pronta para ser usada.
+
+O arquivo excel do planejamento agora não precisa mais chamar exatamente "Master Planejamento". Você pode escolher qual será o arquivo usado durante o uso do programa. Porém é necessário que o arquivo esteja dentro dessa pasta.
