@@ -1,10 +1,7 @@
 streamlit
 holidays
 win32com
-datetime
-shutil
 pywintypes
 pythoncom
-math
 openpyxl
 xlsxwriter
