@@ -3,7 +3,6 @@ from models.workbook import WorkbookManager
 
 from datetime import datetime
 import streamlit as st
-import pythoncom
 import os
 
 st.title("Adicionar Projeto")
@@ -52,7 +51,6 @@ st.write("Gap: " + str(gap))
 
 # Adicionando projeto
 if st.button("Adicionar Projeto"):
-    pythoncom.CoInitialize()
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
@@ -78,7 +76,7 @@ if st.button("Adicionar Projeto"):
         workbook.proximas_semanas.inserir_projeto(projeto)
         workbook.planilhas_semanais.inserir_projeto(projeto)
         workbook.save()
-        st.write("Projeto adicionado!")
+        st.success("Projeto adicionado com sucesso!")
     except Exception as e:
         st.error(f"Ocorreu um erro: {e}")
     finally:

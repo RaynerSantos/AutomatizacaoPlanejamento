@@ -1,5 +1,5 @@
 streamlit
-holidays
-win32com
+pandas
 openpyxl
 xlsxwriter
+holidays
